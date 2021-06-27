@@ -19,7 +19,7 @@ As a Linux distribution I've chosen Ubuntu Server.
 
 ### Network configuration
 
-The only problem I had with the installation was that my laptop doesn't have an Ethernet Port, so I had to manually enable wifi, which wasn't so straightforward for me.
+The only problem I had with the installation was that my laptop doesn't have an Ethernet Port, so I had to manually enable wifi, which wasn't so straightforward to me.
 
 Some life-saving resources:
 
