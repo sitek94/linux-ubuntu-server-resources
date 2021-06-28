@@ -34,3 +34,8 @@ Some life-saving resources:
 * [PL: Ubuntu Server #1: Instalacja, konfiguracja po-instalacyjna, ustawienia IP](https://www.youtube.com/watch?v=uNqxUWiAoRk)
 * [Ubuntu Server CLI Cheatsheet](https://assets.ubuntu.com/v1/f401c3f4-Ubuntu_Server_CLI_pro_tips_2020-04.pdf)
 
+## Remote access via SSH
+
+* [PL: Netia - przekierowanie portu](https://www.netia.pl/pl/srednie-i-duze-firmy/pomoc/produkty/najpopularniejsze/przekierowanie-portu-(port-forwarding)-na-netia-sp)
+* [PL: Ubuntu Server #2: Połączenie SSH](https://www.youtube.com/watch?v=4IFEOOqhF9o)
+* [How to Access an Ubuntu Server Remotely via SSH](https://www.youtube.com/watch?v=DI3G-TfY1wM)
