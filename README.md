@@ -39,3 +39,4 @@ Some life-saving resources:
 * [PL: Netia - przekierowanie portu](https://www.netia.pl/pl/srednie-i-duze-firmy/pomoc/produkty/najpopularniejsze/przekierowanie-portu-(port-forwarding)-na-netia-sp)
 * [PL: Ubuntu Server #2: Połączenie SSH](https://www.youtube.com/watch?v=4IFEOOqhF9o)
 * [How to Access an Ubuntu Server Remotely via SSH](https://www.youtube.com/watch?v=DI3G-TfY1wM)
+  * [Configure SSH to use two-factor authentication](https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview)
