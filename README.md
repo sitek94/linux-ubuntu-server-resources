@@ -41,3 +41,7 @@ The only problem I had with the installation was that my laptop doesn't have an 
   * [Configure SSH to use two-factor authentication](https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview)
   * [Set up SSH-key based authentication](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04)
 
+
+## Local Network and Firewall
+
+I spent a lot of time trying to figure out why I can't connect to a simple web server from other machines in my local network. The reason was Microsoft Defender Firewall which was turned on for private network. When I figured that out I was able to host a simple webpage using apache2 on my laptop and then view it on my pc. 
