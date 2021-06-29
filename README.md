@@ -2,6 +2,10 @@
 
 I was inspired by [this guy](https://www.youtube.com/watch?v=wFjYzhkEBys) and decided to turn my old laptop into a web server that I could use for learning purposes.
 
+## TODO
+
+- [ ] add diagram with my setup (old laptop as a server, pc for development, router, etc)
+
 ## Linux
 
 All my life I've been using Windows and I decided that it'd be nice to try something else. 
@@ -36,3 +40,4 @@ The only problem I had with the installation was that my laptop doesn't have an 
 * [How to Access an Ubuntu Server Remotely via SSH](https://www.youtube.com/watch?v=DI3G-TfY1wM)
   * [Configure SSH to use two-factor authentication](https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview)
   * [Set up SSH-key based authentication](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04)
+
