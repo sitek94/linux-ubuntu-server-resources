@@ -35,3 +35,4 @@ The only problem I had with the installation was that my laptop doesn't have an 
 * [PL: Ubuntu Server #2: Połączenie SSH](https://www.youtube.com/watch?v=4IFEOOqhF9o)
 * [How to Access an Ubuntu Server Remotely via SSH](https://www.youtube.com/watch?v=DI3G-TfY1wM)
   * [Configure SSH to use two-factor authentication](https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview)
+  * [Set up SSH-key based authentication](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04)
