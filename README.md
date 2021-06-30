@@ -24,6 +24,14 @@ As a Linux distribution I've chosen Ubuntu Server.
 * [PL: Ubuntu Server #1: Instalacja, konfiguracja po-instalacyjna, ustawienia IP](https://www.youtube.com/watch?v=uNqxUWiAoRk)
 * [Ubuntu Server CLI Cheatsheet](https://assets.ubuntu.com/v1/f401c3f4-Ubuntu_Server_CLI_pro_tips_2020-04.pdf)
 
+### After installation
+
+[cc_final_message.py... WARNING: Used fallback datasource](https://askubuntu.com/questions/1321968/ubuntu-server-20-04-2-lts-hangs-after-bootup-cloud-init-1781-yyyy-mm-dd-h)
+
+```
+sudo touch /etc/cloud/cloud-init.disabled
+```
+
 ### Network configuration
 
 The only problem I had with the installation was that my laptop doesn't have an Ethernet Port, so I had to manually enable wifi, which wasn't so straightforward to me.
