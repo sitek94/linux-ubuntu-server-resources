@@ -68,3 +68,6 @@ In the meantime I'm also playing around with a server on [Digital Ocean](https:/
 * [Full Node.js Deployment - NGINX, SSL With Lets Encrypt](https://www.youtube.com/watch?v=oykl1Ih9pMg)
 * [NginX: About](http://nginx.org/en/)
 * [YT: What is NginX and What are its use cases?](https://www.youtube.com/watch?v=WHv_t_yK-QM)
+* [Getting certificate from Let's Encrypt](https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx)\
+  In case you get the following error: `The server experienced an internal error` \
+  Try running `certbot --nginx -d yourdomain.com` instead of `certbot --nginx`
