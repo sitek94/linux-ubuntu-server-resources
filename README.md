@@ -53,10 +53,18 @@ The only problem I had with the installation was that my laptop doesn't have an 
 
 I spent a lot of time trying to figure out why I can't connect to a simple web server from other machines in my local network. The reason was Microsoft Defender Firewall which was turned on for private network. When I figured that out I was able to host a simple webpage using apache2 on my laptop and then view it on my pc. 
 
-## First NodeJS Server
+## First NodeJS Server 
 
 * [Installing Node using nvm](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-3-%E2%80%94-installing-node-using-the-node-version-manager)
 * [Setting up a firewall with ufw](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04)
 * [Open firewall port on Ubuntu](https://www.cyberciti.biz/faq/how-to-open-firewall-port-on-ubuntu-linux-12-04-14-04-lts/)
 * Port forwarding in local network router 
 * [Simple server running on port 80](https://github.com/sitek94/linux-ubuntu-server-reference/blob/main/files/server.js)
+
+## Digital Ocean
+
+In the meantime I'm also playing around with a server on [Digital Ocean](https://m.do.co/c/8fdbe4af94f1).
+
+* [Full Node.js Deployment - NGINX, SSL With Lets Encrypt](https://www.youtube.com/watch?v=oykl1Ih9pMg)
+* [NginX: About](http://nginx.org/en/)
+* [YT: What is NginX and What are its use cases?](https://www.youtube.com/watch?v=WHv_t_yK-QM)
