@@ -6,7 +6,8 @@ In addition to building a local server from my old laptop I'm also playing aroun
 
 1. [Create a droplet on Digital Ocean](https://docs.digitalocean.com/droplets/tutorials/recommended-setup/)
 2. [Install Node/NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
-3. 
+3. Create simple Node.js server ([example](https://gist.github.com/sitek94/df724d5040d349dee259e0eb0486e38e#file-server-js))
+4. *(Optional)* If in the previous steps you followed Digital Ocean's tutorial and set up a firewall that allows only ssh, you will now have to create another firewall that will allow TCP traffic on the port of your choice.
 
 ## Resources
 
