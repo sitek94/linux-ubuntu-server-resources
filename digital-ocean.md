@@ -7,8 +7,14 @@ In addition to building a local server from my old laptop I'm also playing aroun
 1. [Create a droplet on Digital Ocean](https://docs.digitalocean.com/droplets/tutorials/recommended-setup/)
 2. [Install Node/NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 3. Create simple Node.js server ([example](https://gist.github.com/sitek94/df724d5040d349dee259e0eb0486e38e#file-server-js))
-4. *(Optional)* If in the previous steps you followed Digital Ocean's tutorial and set up a firewall that allows only ssh, you will now have to create another firewall that will allow TCP traffic on the port of your choice.
-5. UFW (Uncomplicated Firewall) - I was wondering whether it's necessary to enable `ufw` if I have Cloud Firewall already active. It seems that it's not: [Digital Ocean Network Firewall vs UFW](https://www.digitalocean.com/community/questions/do-network-firewall-vs-ufw)
+4. Setup firewall - for example you can go with Digital Ocean's Cloud Firewall or UFW (Uncomplicated Firewall)
+   * [UFW](https://wiki.ubuntu.com/UncomplicatedFirewall) - a default firewall configuration tool for Ubuntu
+   * [Digital Ocean Cloud Firewall](https://docs.digitalocean.com/products/networking/firewalls/)
+   * [Digital Ocean Network Firewall vs UFW](https://www.digitalocean.com/community/questions/do-network-firewall-vs-ufw)
+      * If in the previous steps you followed Digital Ocean's tutorial and set up a firewall that allows only ssh, you will now have to create another firewall that will allow TCP traffic on the port of your choice.
+5. [Install and configure NginX](http://nginx.org/en/)
+   * https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#8-install-nginx-and-configure
+
 
 ## Resources
 
