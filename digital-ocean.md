@@ -20,6 +20,10 @@ In addition to building a local server from my old laptop I'm also playing aroun
    * Digital Ocean
       * edit `NS` records to point to name servers from Netlify
       * add `A` record, pointing to the Digital Ocean's droplet
+7. Add free SSL from Let's Encrypt
+   * Follow these steps: [Certbot instructions for Nginx on Ubuntu 20.04](https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx)
+   * In case you get the following error: `The server experienced an internal error` \
+  Try running `certbot --nginx -d yourdomain.com` instead of `certbot --nginx` in step 7.
 
 
 ## Resources
