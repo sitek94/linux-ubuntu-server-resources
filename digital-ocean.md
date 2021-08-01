@@ -16,7 +16,7 @@ In addition to building a local server from my old laptop I'm also playing aroun
    * [Steps by Brad Traversy](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#8-install-nginx-and-configure)
 6. Configure domain
    * NetlifyCMS - this is where I bought my `macieksitkowski.com` domain
-      * add a `CNAME` record, pointing to the Digital Ocean's droplet
+      * add `CNAME` and `A` records, pointing to the Digital Ocean's droplet - `A` record was needed when I was testing certbot renewal - after adding it everything was fine
    * Digital Ocean
       * edit `NS` records to point to name servers from Netlify
       * add `A` record, pointing to the Digital Ocean's droplet
