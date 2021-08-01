@@ -12,8 +12,14 @@ In addition to building a local server from my old laptop I'm also playing aroun
    * [Digital Ocean Cloud Firewall](https://docs.digitalocean.com/products/networking/firewalls/)
    * [Digital Ocean Network Firewall vs UFW](https://www.digitalocean.com/community/questions/do-network-firewall-vs-ufw)
       * If in the previous steps you followed Digital Ocean's tutorial and set up a firewall that allows only ssh, you will now have to create another firewall that will allow TCP traffic on the port of your choice.
-5. [Install and configure NginX](http://nginx.org/en/)
-   * https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#8-install-nginx-and-configure
+5. Install and configure [NginX](http://nginx.org/en/)
+   * [Steps by Brad Traversy](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#8-install-nginx-and-configure)
+6. Configure domain
+   * NetlifyCMS - this is where I bought my `macieksitkowski.com` domain
+      * add a `CNAME` record, pointing to the Digital Ocean's droplet
+   * Digital Ocean
+      * edit `NS` records to point to name servers from Netlify
+      * add `A` record, pointing to the Digital Ocean's droplet
 
 
 ## Resources
