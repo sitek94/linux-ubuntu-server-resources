@@ -8,6 +8,7 @@ In addition to building a local server from my old laptop I'm also playing aroun
 2. [Install Node/NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 3. Create simple Node.js server ([example](https://gist.github.com/sitek94/df724d5040d349dee259e0eb0486e38e#file-server-js))
 4. *(Optional)* If in the previous steps you followed Digital Ocean's tutorial and set up a firewall that allows only ssh, you will now have to create another firewall that will allow TCP traffic on the port of your choice.
+5. UFW (Uncomplicated Firewall) - I was wondering whether it's necessary to enable `ufw` if I have Cloud Firewall already active. It seems that it's not: [Digital Ocean Network Firewall vs UFW](https://www.digitalocean.com/community/questions/do-network-firewall-vs-ufw)
 
 ## Resources
 
