@@ -1,4 +1,4 @@
-# Linux | Ubuntu Server | Resources
+# Ubuntu Server on old laptop
 
 I was inspired by [this guy](https://www.youtube.com/watch?v=wFjYzhkEBys) and decided to turn my old laptop into a web server that I could use for learning purposes.
 
