@@ -1,14 +1,14 @@
 # Digital Ocean Droplet
 
-In addition to building a local server from my old laptop I'm also playing around with a server on [Digital Ocean](https://m.do.co/c/8fdbe4af94f1).
+In addition to building a local server from my old laptop, I'm also playing around with a server on [Digital Ocean](https://m.do.co/c/8fdbe4af94f1).
 
-## Step by steps instructions to setup the droplet
+## Step by steps instructions to set up the droplet
 
 1. [Create a droplet on Digital Ocean](https://docs.digitalocean.com/droplets/tutorials/recommended-setup/)
    * When I was creating my droplet there was a promo of $100 for new users, in case there is no similar promo you can always use [my referral link](https://m.do.co/c/8fdbe4af94f1), which will give you $100 over 60 days.
 3. [Install Node/NVM](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 4. Create simple Node.js server ([example](https://gist.github.com/sitek94/df724d5040d349dee259e0eb0486e38e#file-server-js))
-5. Setup firewall - for example you can go with Digital Ocean's Cloud Firewall or UFW (Uncomplicated Firewall)
+5. Setup firewall - for example, you can go with Digital Ocean's Cloud Firewall or UFW (Uncomplicated Firewall)
    * [UFW](https://wiki.ubuntu.com/UncomplicatedFirewall) - a default firewall configuration tool for Ubuntu
    * [Digital Ocean Cloud Firewall](https://docs.digitalocean.com/products/networking/firewalls/)
    * [Digital Ocean Network Firewall vs UFW](https://www.digitalocean.com/community/questions/do-network-firewall-vs-ufw)
@@ -29,8 +29,8 @@ In addition to building a local server from my old laptop I'm also playing aroun
 
 ## Resources
 
-* [Full Node.js Deployment - NGINX, SSL With Lets Encrypt](https://www.youtube.com/watch?v=oykl1Ih9pMg)
+* [Full Node.js Deployment - NGINX, SSL With Let's Encrypt](https://www.youtube.com/watch?v=oykl1Ih9pMg)
 * [NginX: About](http://nginx.org/en/)
-* [YT: What is NginX and What are its use cases?](https://www.youtube.com/watch?v=WHv_t_yK-QM)
+* [YT: What is NginX, and what are its use cases?](https://www.youtube.com/watch?v=WHv_t_yK-QM)
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=8fdbe4af94f1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
